@@ -10,3 +10,17 @@
   border-width: 0.5px;
   border-color: rgba(255, 255, 255, 0.1);
 }
+
+@utility border-marker {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-ferro-accent);
+    border-radius: 1px;
+  }
+}
