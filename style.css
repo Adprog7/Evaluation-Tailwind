@@ -1,9 +1,10 @@
 @import "tailwindcss";
 @theme {
-  --color-steel-dark: #0a0a0a;   
-  --color-steel-gray: #4a4a4a;   
-  --color-steel-accent: #ffffff; 
-  --font-industrial: "Inter", sans-serif; 
+  --color-ferro-bg: #e5e7eb;    
+  --color-ferro-dark: #111827;  
+  --color-ferro-accent: #f97316; 
+  
+  --font-industrial: "Inter", sans-serif;
 }
 @utility border-steel-thin {
   border-width: 0.5px;
